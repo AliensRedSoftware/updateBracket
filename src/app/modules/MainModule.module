@@ -1,0 +1,24 @@
+{
+  "props": [],
+  "components": {
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 128,
+      "y": 352,
+      "props": {
+        "path": "version.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "zip": {
+      "type": "bundle\\zip\\ZipFileScript",
+      "x": 256,
+      "y": 240,
+      "props": {
+        "path": "dist.zip",
+        "autoCreate": "1"
+      }
+    }
+  }
+}
